@@ -2,7 +2,7 @@ FROM redrick/ruby_base_image:latest
 
 MAINTAINER  Andrej Antas <andrej@antas.cz>
 
-ENV APP_HOME /rails_template
+ENV APP_HOME /h3t
 RUN mkdir -p $APP_HOME
 WORKDIR $APP_HOME
 

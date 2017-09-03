@@ -26,7 +26,7 @@ services:
     volumes_from:
       - bundle
     volumes:
-      - rails-template-sync:/rails_template:nocopy
+      - h3t-sync:/h3t:nocopy
   bundle:
     build:
       context: .
@@ -35,5 +35,5 @@ services:
       - /bundle
 
 volumes:
-  rails-template-sync:
+  h3t-sync:
     external: true

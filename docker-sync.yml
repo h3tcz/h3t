@@ -3,7 +3,7 @@ options:
   verbose: true
   compose-file-path: 'docker-compose.yml'
 syncs:
-  rails-template-sync:
+  h3t-sync:
     src: './'
     sync_strategy: 'native_osx'
     sync_excludes: ['node_modules/', 'log/']
