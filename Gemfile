@@ -21,7 +21,7 @@ gem 'pg'
 gem 'tzinfo-data'
 
 # webserver
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 
 # assets
 gem 'sass-rails', '~> 5.0'
